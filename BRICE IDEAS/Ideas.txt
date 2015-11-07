@@ -1,0 +1,3 @@
+Break down materials in GregTech in Tiers
+Every mod is assigned a Tier 
+	e.g.(AE2 = High Tech - Takes Titanium plates - Titanium Tier)(Railcraft - Takes Steel plates - Steel Tier)
