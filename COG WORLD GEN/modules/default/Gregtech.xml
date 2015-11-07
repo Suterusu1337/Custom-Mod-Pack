@@ -3,16 +3,16 @@
 <IfModInstalled name="gregtech">
 <IfNotModInstalled name="gregapi">
 	<ConfigSection>                
-    <OptionDisplayGroup name='groupGregtechOres' displayName='Gregtech Ores'
+    <OptionDisplayGroup name='groupGTOres' displayName='Gregtech Ores'
                         displayState='shown'> 
       <Description> 
         Enable/disable ores for certain metals and other substances.
       </Description>
     </OptionDisplayGroup>
 
-    <OptionChoice name='GregtechGenOres' default='true'
+    <OptionChoice name='GTGenOres' default='true'
                  displayState='shown_dynamic'
-                 displayGroup='groupGregtechOres'>
+                 displayGroup='groupGTOres'>
       <Description>
         Generate Gregtech Ores
       </Description>
@@ -23,9 +23,9 @@
 		
 		<ConfigSection> 
 		<!-- Enable or Disable GT Vein Generation -->
-			<OptionChoice name='GTGenCoal' default=':=?GregtechGenOres'
-                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-                    displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenCoal' default=':=?GTGenOres'
+                    displayState=':=if(?GTGenOres, "shown", "hidden")'
+                    displayGroup='groupGTOres'>
         <Description>
           Generate Huge Veins of Coal and Lignite
         </Description>
@@ -34,9 +34,9 @@
         <Choice value='false' displayValue='Off'/>
       </OptionChoice>
 			
-			<OptionChoice name='GTGenTetrahedrite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenTetrahedrite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Tetrahedrite, Stibnite, and Copper
 				</Description>
@@ -46,9 +46,9 @@
 			</OptionChoice>
 
 			
-			<OptionChoice name='GTGenCassiterite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenCassiterite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Cassiterite, Tin, and Sphalerite
 				</Description>
@@ -57,9 +57,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenBismuth' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenBismuth' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Bismuth and Barite
 				</Description>
@@ -68,9 +68,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenMagnetite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenMagnetite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Magnetite, VandaiumMagnetite, and Gold
 				</Description>
@@ -79,9 +79,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenSalt' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenSalt' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Salt, RockSalt, Lepidolite, Spodumene, and Lithium
 				</Description>
@@ -90,9 +90,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenSaltpeter' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenSaltpeter' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Saltpeter, Niter, and Calcite
 				</Description>
@@ -102,9 +102,9 @@
 			</OptionChoice>
 
 			
-			<OptionChoice name='GTGenApatite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenApatite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Apatite, Phosphate, and Phosphorus
 				</Description>
@@ -113,9 +113,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenQuartz' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenQuartz' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of CertusQuartz, Quartzite, and Nether Quartz
 				</Description>
@@ -124,9 +124,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenBauxite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenBauxite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Bauxite and Aluminum
 				</Description>
@@ -135,9 +135,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenTitanium' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenTitanium' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Rutile and Ilmenite
 				</Description>
@@ -146,9 +146,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenTungsten' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenTungsten' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Scheelite, Tungstate, Tungsten, and Lithium
 				</Description>
@@ -157,9 +157,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenLimonite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenLimonite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Huge Veins of BrownLimonite, YellowLimonite, and Malachite
 				</Description>
@@ -168,9 +168,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenChalcopyrite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenChalcopyrite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Chalcopyrite, Iron, and Copper
 				</Description>
@@ -179,9 +179,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenLead' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenLead' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Lead, Galena, and AstralSilver
 				</Description>
@@ -190,9 +190,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenNickel' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenNickel' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Pentlandite, Garnierite, Cobaltite, Nickel, and Cobalt
 				</Description>
@@ -201,9 +201,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenAluminum' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenAluminum' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Almandine, Pyrope, GreenSapphire, and Aluminum
 				</Description>
@@ -213,9 +213,9 @@
 			</OptionChoice>
 
 			
-			<OptionChoice name='GTGenMagnesium' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenMagnesium' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Chrysotile, Asbestos, Bentonite, Olivine, and Magnesium
 				</Description>
@@ -224,9 +224,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenManganese' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenManganese' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Pyrolusite, Spessartine, and Manganese
 				</Description>
@@ -235,9 +235,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenMolybdenum' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenMolybdenum' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Molybdenum, Wulfenite, Powellite, and Molybdenum
 				</Description>
@@ -246,9 +246,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenTantalum' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenTantalum' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Tantalite, Tantalum, and Niobium
 				</Description>
@@ -257,9 +257,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenChrome' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenChrome' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Chromite, Uvarovite, YellowGarnet, and Chrome
 				</Description>
@@ -268,9 +268,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenNeodymium' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenNeodymium' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Monazite, Bastnasite, Neodymium, and Thorium
 				</Description>
@@ -279,9 +279,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenThorium' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenThorium' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Thorium, Beryllium, Emerald
 				</Description>
@@ -290,9 +290,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenPitchblende' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenPitchblende' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Pitchblende and Uraninite
 				</Description>
@@ -301,9 +301,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenUranium' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenUranium' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Uraninite, Uranium238, and Uranium235
 				</Description>
@@ -312,9 +312,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenSulfur' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenSulfur' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Sulfur and Pyrite
 				</Description>
@@ -323,9 +323,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenSoapstone' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenSoapstone' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Soapstone, Talc, and Glauconite
 				</Description>
@@ -334,9 +334,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenRedstone' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenRedstone' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Redstone, Cinnabar, and Ruby
 				</Description>
@@ -345,9 +345,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenLapis' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenLapis' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Lapis, Lazurite, and Sodalite
 				</Description>
@@ -356,9 +356,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenNikolite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenNikolite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Nikolite, Sapphire, and Diatomite
 				</Description>
@@ -367,9 +367,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenGold' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenGold' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Gold, Electrum, Silver, and MidasGold
 				</Description>
@@ -378,9 +378,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenPlatinum' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenPlatinum' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Veins of Sheldonite, Palladium, Platinum, Iridium, Osmium, and Mithril
 				</Description>
@@ -389,9 +389,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenGraphite' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenGraphite' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Veins of Graphite, Coal, and Diamond
 				</Description>
@@ -400,9 +400,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenDiamond' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenDiamond' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Lava Pipe of Diamonds
 				</Description>
@@ -411,9 +411,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenDeepIron' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenDeepIron' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Vein of DeepIron, DarkIron, and ShadowIron
 				</Description>
@@ -422,9 +422,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenAdamantium' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenAdamantium' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Lava Pipe of Adamantium
 				</Description>
@@ -433,9 +433,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenNetherQuartz' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenNetherQuartz' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Large Vein of NetherQuartz
 				</Description>
@@ -444,9 +444,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenNaquadah' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenNaquadah' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Vein of Naquadah, EnrichedNaquadah, and Naquadria
 				</Description>
@@ -455,9 +455,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenMeteoricIron' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenMeteoricIron' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Vein of MeteoricIron
 				</Description>
@@ -466,9 +466,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenCheeseOre' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenCheeseOre' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Vein of CheeseOre
 				</Description>
@@ -477,9 +477,9 @@
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
 			
-			<OptionChoice name='GTGenDesh' default=':=?GregtechGenOres'
-										displayState=':=if(?GregtechGenOres, "shown", "hidden")'
-										displayGroup='groupGregtechOres'>
+			<OptionChoice name='GTGenDesh' default=':=?GTGenOres'
+										displayState=':=if(?GTGenOres, "shown", "hidden")'
+										displayGroup='groupGTOres'>
 				<Description>
 					Generate Normal Vein of MeteoricIron and Desh
 				</Description>
