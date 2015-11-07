@@ -506,7 +506,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 2 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 90' range=':= 40' type='normal'/>
 						<Setting name='SegmentLength' avg=':=_default_' range=':=_default_'/>
@@ -527,7 +527,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 90' range=':= 30' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -548,7 +548,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 80' range=':= 40' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -567,7 +567,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 90' range=':= 30' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -590,7 +590,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 85' range=':= 35' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -615,7 +615,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 60' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -636,7 +636,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 55' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -657,7 +657,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 50' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -678,7 +678,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 60' range=':= 20' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -697,7 +697,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -716,8 +716,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.003125'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 50' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -740,8 +739,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.003125'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 40' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -762,7 +760,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 25' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -783,7 +781,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 20' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -804,8 +802,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.003125'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 45' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -830,7 +827,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 25' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -853,7 +850,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 35' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -878,7 +875,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 25' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -899,7 +896,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 30' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -922,7 +919,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 35' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -943,8 +940,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.003125'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 30' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -967,8 +963,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 17.5' range=':= 12.5' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -991,7 +986,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 30' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1012,7 +1007,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 35' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1031,7 +1026,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 25' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1052,8 +1047,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 25' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1072,7 +1066,6 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 10' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1093,7 +1086,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 25' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1114,7 +1107,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 20' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -1135,7 +1128,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 10' range=':= 20' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -1156,7 +1149,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 20' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1179,8 +1172,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 10' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':= _default_' range=':=_default_'/>
@@ -1207,8 +1199,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0625'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 50' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -1229,7 +1220,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 10' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -1250,8 +1241,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.003125'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 10' range=':= 10' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
