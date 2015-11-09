@@ -1,5 +1,5 @@
 #Custom Ore Generation 1.2.24 Config Options
-#Sat Nov 07 12:06:33 PST 2015
+#Sun Nov 08 10:22:56 PST 2015
 oreFreq=1.0
 oreSize=1.0
 debugMode=false
@@ -70,8 +70,29 @@ GTGenGraphite=true
 GTGenDiamond=true
 GTGenDeepIron=true
 GTGenAdamantium=true
-GTGenNetherQuartz=true
-GTGenNaquadah=true
-GTGenMeteoricIron=true
-GTGenCheeseOre=true
-GTGenDesh=true
+GTGenNetherQuartz=false
+GTGenNetherCoal=false
+GTGenNetherTetrahedrite=false
+GTGenNetherMagnetite=false
+GTGenNetherSalt=false
+GTGenNetherSaltpeter=false
+GTGenNetherBauxite=false
+GTGenNetherApatite=false
+GTGenNetherLimonite=false
+GTGenNetherChalcopyrite=false
+GTGenNetherNickel=false
+GTGenNetherSulfur=false
+GTGenNetherRedstone=false
+GTGenEndCassiterite=false
+GTGenEndTitanium=false
+GTGenEndTungsten=false
+GTGenEndLead=false
+GTGenEndMagnesium=false
+GTGenEndManganese=false
+GTGenEndMolybdenum=false
+GTGenEndTantalum=false
+GTGenEndGold=false
+GTGenEndPlatinum=false
+GTGenMoonMeteoricIron=false
+GTGenMarsDesh=false
+GTGenMarsNaquadah=false
