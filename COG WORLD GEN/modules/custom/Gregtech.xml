@@ -1762,25 +1762,6 @@
 				</Veins>
 			</IfCondition>
 		</ConfigSection>
-		<ConfigSection>
-			<IfCondition condition=':=?GTGenMarsNaquadah'>
-				<Veins name='GTMarsNaquadahVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
-						<Biome name='.*'  />
-						<OreBlock block='gregtech:gt.blockores' weight='0.75'
-                    nbt='{m:324, n:1, id:"GT_TileEntity_Ores"}'/><!--Naquadah-->
-						<OreBlock block='gregtech:gt.blockores' weight='0.20'
-                    nbt='{m:326, n:1, id:"GT_TileEntity_Ores"}'/><!--EnrichedNaquadah-->
-						<OreBlock block='gregtech:gt.blockores' weight='0.5'
-                    nbt='{m:327, n:1, id:"GT_TileEntity_Ores"}'/><!--Naquadria-->
-						<Replaces block='GalacticraftMars:tile.mars'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.003125'/>
-						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
-						<Setting name='MotherlodeHeight' avg=':= 30' range=':= 20' type='normal'/>
-						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
-						<Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
-				</Veins>
-			</IfCondition>
-		</ConfigSection>
 	</ConfigSection>
 </IfNotModInstalled>
 </IfModInstalled>
