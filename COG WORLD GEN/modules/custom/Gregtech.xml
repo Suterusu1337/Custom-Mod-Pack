@@ -719,12 +719,6 @@
 				<Choice value='true' displayValue='On'/>
 				<Choice value='false' displayValue='Off'/>
 			</OptionChoice>
-		
-		<ConfigSection>
-      <Substitute name='GTOreRemoval' block='minecraft:stone'>
-        <Replaces block='gregtech:gt.blockores'/>
-      </Substitute>
-		</ConfigSection>
 			
 		<ConfigSection>
 			<IfCondition condition=':=?GTGenCoal'>
@@ -737,7 +731,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 2 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':=_default_' range=':=_default_'/>
@@ -758,7 +752,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -779,7 +773,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
@@ -798,7 +792,7 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
@@ -821,9 +815,9 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
-						<Setting name='MotherlodeHeight' avg=':= 100' range=':= 40' type='normal'/>
+						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
 						<Setting name='SegmentRadius' avg=':= 1.25 * _default_' range=':=_default_'/>
 				</Veins>
@@ -846,9 +840,9 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
-						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
+						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
 						<Setting name='SegmentRadius' avg=':= 1.5 * _default_' range=':=_default_'/>
 				</Veins>
@@ -867,9 +861,9 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
-						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
+						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
 						<Setting name='SegmentRadius' avg=':= 1.5 * _default_' range=':=_default_'/>
 				</Veins>
@@ -888,9 +882,9 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
-						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
+						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
 						<Setting name='SegmentRadius' avg=':= 1.5 * _default_' range=':=_default_'/>
 				</Veins>
@@ -909,9 +903,9 @@
 						<Replaces block='minecraft:stone'/>
 						<Replaces block='minecraft:dirt'/>
 						<Replaces block='minecraft:gravel'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.025'/>
 						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
-						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
+						<Setting name='MotherlodeHeight' avg=':= 120' range=':= 60' type='normal'/>
 						<Setting name='SegmentLength' avg=':= 2 * _default_' range=':=1.5 * _default_'/>
 						<Setting name='SegmentRadius' avg=':= 1.5 * _default_' range=':=_default_'/>
 				</Veins>
@@ -1902,6 +1896,25 @@
                     nbt='{m:884, n:1, id:"GT_TileEntity_Ores"}'/><!--Desh-->
 						<Replaces block='GalacticraftMars:tile.mars'/>
 						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
+						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 35' range=':= 15' type='normal'/>
+						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
+						<Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenMarsNaquadah'>
+				<Veins name='GTMarsNaquadahVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.75'
+                    nbt='{m:340, n:1, id:"GT_TileEntity_Ores"}'/><!--Naquadah-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:884, n:1, id:"GT_TileEntity_Ores"}'/><!--EnrichedNaquadah-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:884, n:1, id:"GT_TileEntity_Ores"}'/><!--Naquadria-->
+						<Replaces block='GalacticraftMars:tile.mars'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00625'/>
 						<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 35' range=':= 15' type='normal'/>
 						<Setting name='SegmentLength' avg=':=4 * _default_' range=':=2 * _default_'/>
