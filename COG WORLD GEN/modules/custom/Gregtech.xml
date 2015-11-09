@@ -1705,10 +1705,11 @@
 						<OreBlock block='gregtech:gt.blockores' weight='0.25'
                     nbt='{m:2839, n:1, id:"GT_TileEntity_Ores"}'/><!--Sphalerite-->
 						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
-						<Setting name='MotherlodeSize' avg=':= 2 * _default_' range=':= _default_' type='normal' />
+						<Setting name='MotherlodeFrequency' avg=':= 0.0031'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
-						<Setting name='SegmentRadius' avg=':= 1.25 * _default_' range=':=_default_'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
 				</Veins>
 			</IfCondition>
 		</ConfigSection>
@@ -1721,10 +1722,156 @@
 						<OreBlock block='gregtech:gt.blockores' weight='0.50'
                     nbt='{m:2918, n:1, id:"GT_TileEntity_Ores"}'/><!--Ilmenite-->
 						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
-						<Setting name='MotherlodeFrequency' avg=':= 0.0125'/>
-						<Setting name='MotherlodeSize' avg=':= 1.5 * _default_' range=':= _default_' type='normal' />
+						<Setting name='MotherlodeFrequency' avg=':= 0.0031'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
 						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 10' type='normal'/>
-						<Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndTungsten'>
+				<Veins name='GTGenEndTungstenVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:2910, n:1, id:"GT_TileEntity_Ores"}'/><!--Scheelite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:2841, n:1, id:"GT_TileEntity_Ores"}'/><!--Tungstate-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.10'
+                    nbt='{m:2081, n:1, id:"GT_TileEntity_Ores"}'/><!--Tungsten-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.10'
+                    nbt='{m:2006, n:1, id:"GT_TileEntity_Ores"}'/><!--Lithium-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 60' range=':= 10' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndLead'>
+				<Veins name='GTGenEndLeadVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:2830, n:1, id:"GT_TileEntity_Ores"}'/><!--Galena-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.48'
+                    nbt='{m:2089, n:1, id:"GT_TileEntity_Ores"}'/><!--Lead-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:2333, n:1, id:"GT_TileEntity_Ores"}'/><!--AstralSilver-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0031'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 10' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndManganese'>
+				<Veins name='GTGenEndManganeseVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.40'
+                    nbt='{m:2943, n:1, id:"GT_TileEntity_Ores"}'/><!--Pyrolusite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.40'
+                    nbt='{m:2838, n:1, id:"GT_TileEntity_Ores"}'/><!--Spessartine-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:2031, n:1, id:"GT_TileEntity_Ores"}'/><!--Manganese-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 60' range=':= 10' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndMolybdenum'>
+				<Veins name='GTGenEndMolybdenumVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:2942, n:1, id:"GT_TileEntity_Ores"}'/><!--Wulfenite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:2882, n:1, id:"GT_TileEntity_Ores"}'/><!--Powellite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:2883, n:1, id:"GT_TileEntity_Ores"}'/><!--Molybdenite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:2048, n:1, id:"GT_TileEntity_Ores"}'/><!--Molybdenum-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 50' range=':= 10' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndTantalum'>
+				<Veins name='GTGenEndTantalumVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.60'
+                    nbt='{m:2921, n:1, id:"GT_TileEntity_Ores"}'/><!--Tantalite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:2080, n:1, id:"GT_TileEntity_Ores"}'/><!--Tantalum-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:2047, n:1, id:"GT_TileEntity_Ores"}'/><!--Niobium-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.0015'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 50' range=':= 10' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndGold'>
+				<Veins name='GTGenEndGoldVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.32'
+                    nbt='{m:2086, n:1, id:"GT_TileEntity_Ores"}'/><!--Gold-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.33'
+                    nbt='{m:2054, n:1, id:"GT_TileEntity_Ores"}'/><!--Silver-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.33'
+                    nbt='{m:2303, n:1, id:"GT_TileEntity_Ores"}'/><!--Electrum-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:2332, n:1, id:"GT_TileEntity_Ores"}'/><!--Midas-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00097'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
+				</Veins>
+			</IfCondition>
+		</ConfigSection>
+		<ConfigSection>
+			<IfCondition condition=':=?GTGenEndPlatinum'>
+				<Veins name='GTGenEndPlatinumVein'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+						<Biome name='.*'  />
+						<OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:2828, n:1, id:"GT_TileEntity_Ores"}'/><!--Sheldonite-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:2052, n:1, id:"GT_TileEntity_Ores"}'/><!--Palladium-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.25'
+                    nbt='{m:2085, n:1, id:"GT_TileEntity_Ores"}'/><!--Platinum-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.09'
+                    nbt='{m:2084, n:1, id:"GT_TileEntity_Ores"}'/><!--Iridium-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.04'
+                    nbt='{m:2083, n:1, id:"GT_TileEntity_Ores"}'/><!--Osmium-->
+						<OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:2331, n:1, id:"GT_TileEntity_Ores"}'/><!--Mithril-->
+						<Replaces block='minecraft:end_stone'/><Replaces block='minecraft:air'/>
+						<Setting name='MotherlodeFrequency' avg=':= 0.00097'/>
+						<Setting name='MotherlodeSize' avg=':= 4' range=':= 1' type='normal' />
+						<Setting name='MotherlodeHeight' avg=':= 70' range=':= 20' type='normal'/>
+						<Setting name='MotherlodeRangeLimit' avg='128' range='32' type='normal'/>
+						<Setting name='BranchFrequency' avg='0' range='0'/>
 				</Veins>
 			</IfCondition>
 		</ConfigSection>
