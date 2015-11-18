@@ -1,0 +1,142 @@
+[
+        {
+                "block": "minecraft:lava_bucket",
+                "weight" : "256"
+        } ,
+		{
+                "item": "minecraft:water_bucket",
+                "weight" : "1"
+        } ,
+		{
+                "item": "minecraft:milk_bucket",
+                "weight" : "1"
+        } ,
+		{
+                "block": "minecraft:stone",
+                "weight" : "1.0"
+        } ,
+		{
+                "block": "minecraft:grass",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "minecraft:clay",
+                "weight" : "0.5"
+        } ,
+		{
+                "block": "minecraft:stained_hardened_clay",
+                "weight" : "0.5"
+        } ,
+		{
+                "block": "hardened_clay",
+                "weight" : "0.5"
+        } ,
+		{
+                "block": "minecraft:cobblestone",
+                "weight" : "0.5"
+        } ,
+		{
+                "block": "minecraft:sand",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "minecraft:gravel",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "minecraft:dirt",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "minecraft:obsidian",
+                "weight" : "2"
+        } ,
+		{
+                "block": "minecraft:log",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "minecraft:planks",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "minecraft:sandstone",
+                "weight" : ".75"
+        } ,
+		{
+                "block": "minecraft:brick_block",
+                "weight" : "0.75"
+        } ,
+		{
+                "block": "appliedenergistics2:tile.BlockSkyStone",
+                "weight" : "2"
+        } ,
+		{
+                "block": "BiomesOPlenty:logs1",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "BiomesOPlenty:logs2",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "BiomesOPlenty:logs3",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "BiomesOPlenty:logs4",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "BiomesOPlenty:planks",
+                "weight" : "0.25"
+        } ,
+		{
+                "block": "chisel:granite",
+                "weight" : "2.5"
+        } ,
+		{
+                "block": "chisel:marble",
+                "weight" : "1.0"
+        } ,
+		{
+                "block": "chisel:limestone",
+                "weight" : "1.0"
+        } ,
+		{
+                "block": "gregtech:gt.blockgranites",
+                "weight" : "2.5"
+        } ,
+		{
+                "block": "gregtech:gt.blockconcretes",
+                "weight" : "2.5"
+        } ,
+        {
+                "block": "gregtech:gt.blockores",
+                "weight" : "2"
+        } ,
+		{
+                "block": "gregtech:gt.blockmachines",
+                "weight" : "1"
+        } ,
+		{
+                "block": "gregtech:gt.blockcasings",
+                "weight" : "1"
+        } ,
+		{
+                "block": "gregtech:gt.blockcasings2",
+                "weight" : "1"
+        } ,
+		{
+                "block": "gregtech:gt.blockcasings3",
+                "weight" : "1"
+        } ,
+		{
+                "block": "gregtech:gt.blockcasings4",
+                "weight" : "1"
+        } ,
+		{
+                "block": "IC2:blockRubWood",
+                "weight" : "0.25"
+        }
+]
