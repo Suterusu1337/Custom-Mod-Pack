@@ -655,6 +655,10 @@ recipes.remove(RedHardClay);
 // --- Black Stained Clay Block
 recipes.remove(BlackHardClay);
 
+// --- Mushroom Stew
+recipes.removeShapeless(<minecraft:mushroom_stew>);
+recipes.removeShapeless(<Natura:natura.stewbowl>);
+
 // }
 
 // {

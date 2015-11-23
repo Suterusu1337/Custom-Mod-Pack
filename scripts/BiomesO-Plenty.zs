@@ -51,5 +51,8 @@ recipes.addShaped(<BiomesOPlenty:scytheDiamond>, [
 //Pile of Ash
 recipes.addShapeless(<gregtech:gt.metaitem.01:2816>, [<BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>]);
 
+//Mushroom Salad
+recipes.addShapeless(<BiomesOPlenty:food:6>, [<ore:listAllmushroom>, <ore:listAllmushroom>, <ore:listAllmushroom>, <ore:toolMixingbowl>]);
+
 // Wool
 recipes.addShaped(<minecraft:wool>, [[Cattail, Cattail, Cattail],[Cattail, Cattail, Cattail],[Cattail, Cattail, Cattail]]);

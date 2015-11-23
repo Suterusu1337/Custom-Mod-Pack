@@ -22,3 +22,6 @@ cutboard.add(<gregtech:gt.metatool.01:34>);
 bowl.add(<minecraft:bowl>);
 bake.add(<gregtech:gt.metatool.01:46>);
 juice.add(<gregtech:gt.metatool.01:14>);
+
+//Adds all Mushrooms to the cookable list
+<ore:cropShroomBrown>.add(<minecraft:brown_mushroom>);
