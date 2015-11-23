@@ -228,6 +228,7 @@ val Charcoal = <ore:gemCharcoal>;
 val CoalCoke = <ore:fuelCoke>;
 val SugarCoke = <ore:itemCharcoalSugar>;
 val Phosphorous = <ore:dustPhosphorite>;
+val PhosphorousGem = <ore:gemPhosphorite>;
 val Beeswax = <ore:itemBeeswax>;
 
 val Sulfur = <ore:dustSulfur>;
@@ -912,6 +913,11 @@ recipes.addShapedMirrored(Torch * 4, [
 [Phosphorous, null],
 [Stick, null]]);
 // -
+// -
+recipes.addShapedMirrored(Torch * 4, [
+[PhosphorousGem, null],
+[Stick, null]]);
+// -
 recipes.addShapedMirrored(Torch * 2, [
 [AnyWool, null],
 [Stick, null]]);
@@ -952,6 +958,10 @@ recipes.addShaped(Torch * 3, [
 // -
 recipes.addShaped(Torch * 5, [
 [Phosphorous, String],
+[Stick, null]]);
+// -
+recipes.addShaped(Torch * 5, [
+[PhosphorousGem, String],
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 3, [
