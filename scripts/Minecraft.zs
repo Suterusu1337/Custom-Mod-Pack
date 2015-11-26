@@ -381,9 +381,6 @@ recipes.remove(Hopper);
 // --- Book
 recipes.remove(Book);
 
-// --- Bow
-recipes.remove(Bow);
-
 recipes.removeShaped(<minecraft:stone_button>);
 
 // --- String
@@ -2202,3 +2199,28 @@ recipes.addShaped(Map, [
 [Paper, Paper, Paper]]);
 
 // --- Hiding Stuff ---
+
+// -------------------------------- Custom ModPack -----------------------------------------
+
+//----- Removed Items -----
+
+//----- Shapless Recipes ------
+
+//----- Shapped Recipes ------
+
+//Clay
+recipes.addShaped(<minecraft:clay>, [
+[<minecraft:gravel>, <minecraft:sand>, <minecraft:gravel>],
+[<minecraft:sand>, <BiomesOPlenty:mud>, <minecraft:sand>],
+[<minecraft:gravel>, <minecraft:sand>, <minecraft:gravel>]]);
+
+recipes.addShaped(<minecraft:clay>, [
+[<minecraft:sand>, <minecraft:gravel>, <minecraft:sand>],
+[<minecraft:gravel>, <BiomesOPlenty:mud>, <minecraft:gravel>],
+[<minecraft:sand>, <minecraft:gravel>, <minecraft:sand>]]);
+
+//Iron Ingot
+recipes.addShaped(<minecraft:iron_ingot>, [
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
