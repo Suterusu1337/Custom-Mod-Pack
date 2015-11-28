@@ -12,7 +12,7 @@ val SteelBolt = <gregtech:gt.metaitem.01:26305>;
 val SteelFrame = <gregtech:gt.blockmachines:4401>;
 val SteelRod = <gregtech:gt.metaitem.01:23305>;
 val WoodLogs = <ore:logWood>;
-val Wrench = <gregtech:gt.metatool.01:16>;
+val Wrench = <ore:craftingToolWrench>;
  
 // --- Removing Recipes ---
  
@@ -36,9 +36,9 @@ recipes.addShaped(<gorgiastuff:BlockBeamReinforced> * 2, [
 [SteelBolt, <gorgiastuff:BlockBeamBasic>, SteelBolt]]);
  
 // --- Metal Beam
-recipes.addShaped(<gorgiastuff:BlockBeamMetal> * 2, [
-[SteelBolt, <gorgiastuff:BlockBeamReinforced>, SteelBolt],
+recipes.addShaped(<gorgiastuff:BlockBeamMetal> * 4, [
+[SteelBolt, SteelFrame, SteelBolt],
 [SteelFrame, Wrench, SteelFrame],
-[SteelBolt, <gorgiastuff:BlockBeamReinforced>, SteelBolt]]);
+[SteelBolt, SteelFrame, SteelBolt]]);
  
 // --- Hiding Stuff ---
