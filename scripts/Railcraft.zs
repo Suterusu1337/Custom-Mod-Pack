@@ -30,6 +30,7 @@ val DenseOPlate = <ore:plateDenseObsidian>;
 val Glass = <ore:glass>;
 val TSteelGear = <ore:gearTungstenSteel>;
 val IronRod = <ore:stickAnyIron>;
+val BronzeRod = <ore:stickAnyBronze>;
 val SteelRod = <ore:stickSteel>;
 val RedAlloyRod = <ore:stickRedAlloy>;
 val StainlessSteelRod = <ore:stickStainlessSteel>;
@@ -200,6 +201,8 @@ val StoneRailbed = <Railcraft:part.railbed:1>;
 
 // #******** Removing Recipes *******#
 
+// ---Cargo Cart ---
+recipes.remove(<Railcraft:cart.cargo>);
 
 // --- Iron Stairs ---
 recipes.remove(IronStairs);
@@ -704,6 +707,12 @@ recipes.addShaped(<Railcraft:machine.alpha:8>, [
 [<minecraft:piston>, <Forestry:sturdyMachine>, <minecraft:piston>],
 [<gregtech:gt.metatool.01:12>, <Forestry:factory2:2>, <gregtech:gt.metatool.01:18>]]);
 
+//Cargo Cart
+recipes.addShaped(<Railcraft:cart.cargo>, [
+[HHammer, <minecraft:chest>, Wrench],
+[<minecraft:chest>, <minecraft:minecart>, <minecraft:chest>],
+[null, Screwdriver, null]]);
+
 // --- Trade Station --- 
 recipes.addShaped(<Railcraft:machine.alpha:6>, [
 [SteelPlate, GlassPane, SteelPlate],
@@ -1129,11 +1138,11 @@ recipes.addShaped(<Railcraft:signal>, [
 
 // --- Wood Rail ---
 recipes.addShaped(WoodenRail * 3, [
-[IronRod, <Railcraft:part.tie>, WoodStick],
-[IronRod, <Railcraft:part.tie>, WoodStick],
-[IronRod, <Railcraft:part.tie>, WoodStick]]);
+[BronzeRod, <Railcraft:part.tie>, WoodStick],
+[BronzeRod, <Railcraft:part.tie>, WoodStick],
+[BronzeRod, <Railcraft:part.tie>, WoodStick]]);
 
-// --- Standart Rail ---
+// --- Standard Rail ---
 PlateBender.addRecipe(<Railcraft:part.rail> * 8, <gregtech:gt.metaitem.01:23081> * 3, 800, 15);
 PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316> * 3, 1000, 15);
 
@@ -1360,6 +1369,17 @@ recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
 [HHammer, RedDye, <ore:stickSteel>],
 [RedDye, <ore:stickSteel>, RedDye],
 [<ore:stickSteel>, RedDye, <ore:craftingToolFile>]]);
+
+// --- Alternate Cart Recipes ---
+recipes.addShaped(<Railcraft:cart.tank>, [
+[HHammer, <Railcraft:machine.beta:1>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
+
+recipes.addShaped(<Railcraft:cart.work>, [
+[HHammer, <minecraft:crafting_table>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
 
 //Assembler Recipes
 
