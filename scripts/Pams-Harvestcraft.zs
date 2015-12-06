@@ -17,14 +17,20 @@ recipes.remove(<harvestcraft:cuttingboardItem>);
 recipes.remove(<harvestcraft:mortarandpestleItem>);
 recipes.remove(<harvestcraft:bakewareItem>);
 recipes.remove(<harvestcraft:juicerItem>);
+recipes.remove(<harvestcraft:veggiestripsItem>);
 mortar.add(<gregtech:gt.metatool.01:24>);
 cutboard.add(<gregtech:gt.metatool.01:34>);
 bowl.add(<minecraft:bowl>);
 bake.add(<gregtech:gt.metatool.01:46>);
 juice.add(<gregtech:gt.metatool.01:14>);
 
+// -- Add recipes
+
 //Adds all Mushrooms to the cookable list
 <ore:cropShroomBrown>.add(<minecraft:brown_mushroom>);
+
+//Salts
+recipes.addShapeless(<harvestcraft:saltItem>, [<harvestcraft:potItem>, <gregtech:gt.metaitem.01:2817>]);
 
 
 //String
