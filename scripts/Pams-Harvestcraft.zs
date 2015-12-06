@@ -25,3 +25,7 @@ juice.add(<gregtech:gt.metatool.01:14>);
 
 //Adds all Mushrooms to the cookable list
 <ore:cropShroomBrown>.add(<minecraft:brown_mushroom>);
+
+
+//String
+recipes.addShapeless(<minecraft:string>, [<ProjRed|Exploration:projectred.exploration.woolgin:*>, <harvestcraft:cottonItem>, <harvestcraft:cottonItem>, <harvestcraft:cottonItem>]);
