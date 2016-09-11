@@ -1,0 +1,14 @@
+- Review all Minetweaker scripts
+	-When adding scripts there will be many errors due to old or outdated references.
+	-Remove all conflicts by launching Minecraft and reading the errors in the chat window.
+	-You do not have to close Minecraft to test scripts. You simply need to re-log
+
+
+recipes.remove(<>);	
+recipes.addShaped(null,
+ [[null, null, null],
+  [null, null, null],
+  [null, null, null]]);
+  
+recipes.remove(<>);
+recipes.addShapeless(<>,[]);
