@@ -3,7 +3,8 @@ local computer = require("computer")
 local component = require("component")
 local sides = require("sides")
 
-local direction = "East"
+local Facedirection = "Front"
+local Direction = "East"
 local Task = 1
 
 local BotX = 773
@@ -31,62 +32,62 @@ local function feedGenerator()
 end
 
 local function TurnNorth()
-	if direction ~= "North"	then
-		if direction == "East" then
+	if Direction ~= "North"	then
+		if Direction == "East" then
 			robot.turnLeft()
 		end
-		if direction == "South"	then
+		if Direction == "South"	then
 			robot.turnAround()
 		end
-		if direction == "West" then
+		if Direction == "West" then
 			robot.turnRight()
 		end
-		direction = "North"
+		Direction = "North"
 	end
 end
 
 local function TurnEast()
-	if direction ~= "East" then
-		if direction == "North"	then
+	if Direction ~= "East" then
+		if Direction == "North"	then
 			robot.turnRight()
 		end
-		if direction == "South"	then
+		if Direction == "South"	then
 			robot.turnLeft()
 		end
-		if direction == "West" then
+		if Direction == "West" then
 			robot.turnAround()
 		end
-		direction = "East"
+		Direction = "East"
 	end
 end
 	
 local function TurnSouth()
-	if direction ~= "South"	then
-		if direction == "North"	then
+	if Direction ~= "South"	then
+		if Direction == "North"	then
 			robot.turnAround()
 		end
-		if direction == "East" then
+		if Direction == "East" then
 			robot.turnRight()
 		end
-		if direction == "West" then
+		if Direction == "West" then
 			robot.turnLeft()
 		end
-		direction = "South"
+		Direction = "South"
 	end
 end
 
 local function TurnWest()
-	if direction ~= "West" then
-		if direction == "North"	then
+	if Direction ~= "West" then
+		if Direction == "North"	then
 			robot.turnLeft()
 		end
-		if direction == "East" then
+		if Direction == "East" then
 			robot.turnAround()
 		end
-		if direction == "South"	then
+		if Direction == "South"	then
 			robot.turnRight()
 		end
-		direction = "West"
+		Direction = "West"
 	end
 end
 
@@ -100,10 +101,10 @@ local function purge()
 end
  
 local function changeDirection()
-    if direction == "front" then
-        direction = "back"
-    elseif direction == "back" then
-        direction = "front"
+    if Direction == "front" then
+        Direction = "back"
+    elseif Direction == "back" then
+        Direction = "front"
     end
 end
  
@@ -230,7 +231,7 @@ local function MoveToPoint()
 	end
 end
 
-local function Moving(distanceFront, distanceSide, distanceDown)
+local function moving(distanceFront, distanceSide, distanceDown)
     local k = 0
     while k < distanceDown do
         print(k)
@@ -249,13 +250,13 @@ local function Moving(distanceFront, distanceSide, distanceDown)
                 feedGenerator()
             end
             if distanceSide % 2 == 0 then
-                if direction == "front" then
+                if Facedirection == "front" then
                     if j % 2 == 0 then
                         turnRight()
                     else
                         turnLeft()
                     end
-                elseif direction == "back" then
+                elseif Facedirection == "back" then
                     if j % 2 == 0 then
                         turnLeft()
                     else
@@ -263,13 +264,13 @@ local function Moving(distanceFront, distanceSide, distanceDown)
                     end
                 end
             else
-                if direction == "front" then
+                if Facedirection == "front" then
                     if j % 2 == 0 then
                         turnRight()
                     else
                         turnLeft()
                     end
-                elseif direction == "back" then
+                elseif Facedirection == "back" then
                     if j % 2 == 0 then
                         turnRight()
                     else
@@ -279,7 +280,7 @@ local function Moving(distanceFront, distanceSide, distanceDown)
             end
             j = j + 1
         end
-		  local l = 1
+        local l = 1
         while l < distanceFront do
             print(l)
             robot.swing()
@@ -294,8 +295,8 @@ local function Moving(distanceFront, distanceSide, distanceDown)
             gen.remove()
             computer.shutdown(false)
         end
-	     purge()
-        obot.swingDown()
+        purge()
+        robot.swingDown()
         robot.down()
         robot.turnAround()
         changeDirection()
@@ -320,6 +321,6 @@ while true do
 		component.inventory_controller.equip()
 	end
 	if Task == 3 then
-		Moving(11,11,5)
+		moving(11,11,5)
 	end
 end
